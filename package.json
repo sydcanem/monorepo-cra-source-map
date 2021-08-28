@@ -8,5 +8,11 @@
   },
   "devDependencies": {
     "lerna": "^3.14.1"
+  },
+  "scripts": {
+    "cra": "yarn workspace @monorepo/cra start",
+    "cra-build": "yarn workspace @monorepo/cra build",
+    "component": "yarn workspace @monorepo/component build",
+    "shared": "yarn workspace @monorepo/shared build"
   }
 }

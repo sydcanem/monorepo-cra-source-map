@@ -1,7 +1,8 @@
 import React from 'react';
+import { useCounter } from '@monorepo/shared';
 
 export const Component = () => {
-  const [count, setCount] = React.useState(0);
+  const {count, setCount} = useCounter(2);
 
   return (
     <div>
